@@ -1,0 +1,9 @@
+.parent {
+    display: flex;
+margin-left: 500px;
+}
+
+.child {
+    margin: 10px 10px 10px 10px;
+    padding: 15px 15px 15px 15px;
+}

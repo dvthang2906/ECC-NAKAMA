@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    
+  }
+h1{
+    font-size: 50px;
+    color: #0078C1;
+    
+}
+.options1{
+  display: flex;
+  margin-bottom: 50%;
+  background-color: white;
+  border-radius: 10px;
+}
+.seibetsu{
+  position: relative;
+  flex: 1;
+  max-width: 400px;
+  width: 100%;
+  border: 2px solid black;
+  margin:5px;
+  height: 160px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.taichuu{
+  background:white;
+  position: relative;
+  flex: 1;
+  font-size: 20px;
+  height: 160px;
+  margin:5px;
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.shinchou{
+  background:white;
+  position: relative;
+  flex: 1;
+  font-size: 20px;
+  height: 160px;
+  margin:5px;
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+ .seibetsu p{
+  border-bottom:  solid black;
+  font-size: 20px;
+  
+}
+.taichuu p{
+  border-bottom:  solid black;
+}
+.shinchou p {
+  border-bottom: solid black;
+}
+.taichuu input{
+ border: none;
+ outline: none;
+ background: none;
+ width: 100%;
+ padding-bottom: 5px;
+}
+.shinchou input{
+    border: none;
+    outline: none;
+    background: none;
+    width: 100%;
+    padding-bottom: 5px;
+}
+.seibetsu input{
+  position: flex;
+  margin-top: 40px;
+  margin-left:11px;
+}
+@media (max-width: 1060px){
+.options1{
+
+}
+}
+.options2{
+  border: 2px solid #0078C1;
+  margin-bottom: 50%;
+}
+.options3{
+  border: 2px solid #0078C1;
+  margin-bottom: 50%;
+}
+.options4{
+  border: 2px solid #0078C1;
+  margin-bottom: 50%;
+}
+
+form{
+  position: relative;
+}
