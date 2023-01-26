@@ -49,7 +49,7 @@ if (!empty($_SESSION['current_user'])) {
                         if ($_GET['action'] == 'edit' && !empty($_GET['id'])) { //Cập nhật lại sản phẩm
                             $result = mysqli_query($conn, "UPDATE `quan_ao` SET `id_quanao` = '" . $_POST['name_id'] . "', `name` = '".$_POST['name']."',`quantity` = '".$_POST['quantity']."' ,`src_quanao` =  '" . $image . "', `quanao_price` = " . str_replace('.', '', $_POST['price']) . ", `content` = '" . $_POST['content'] . "', `last_updated` = " . time() . " WHERE `quan_ao`.`id` = " . $_GET['id']);
                         } else { //Thêm sản phẩm
-                            $result = mysqli_query($conn, "INSERT INTO `quan_ao` (`id`, `id_quanao`, `quantity`, `name`, `src_quanao`, `quanao_price`, `content`, `created_time`, `last_updated`) VALUES (NULL, '" . $_POST['name_id'] . "','".$_POST['name']."' , '".$_POST['quantity'].",'" . $image . "', " . str_replace('.', '', $_POST['price']) . ", '" . $_POST['content'] . "', " . time() . ", " . time() . ");");
+                            $result = mysqli_query($conn, "INSERT INTO `quan_ao` (`id`, `id_quanao`, `name`, `quantity`, `src_quanao`, `quanao_price`, `content`, `created_time`, `last_updated`) VALUES (NULL, '" . $_POST['name_id'] . "','".$_POST['name']."' , '".$_POST['quantity']."','" . $image . "', " . str_replace('.', '', $_POST['price']) . ", '" . $_POST['content'] . "', " . time() . ", " . time() . ");");
                         }
                         if (!$result) { //Nếu có lỗi xảy ra
                             $error = "実行中にエラーが発生しました。";
