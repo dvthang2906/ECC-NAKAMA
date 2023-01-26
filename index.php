@@ -2,6 +2,15 @@
 include 'connect.php';
 session_start();
 
+if (isset($login_name)) {
+    $login_name = $_SESSION['userName'];
+}
+if(!empty($login_name)){
+    $home = "trangchu";
+}else{
+    $home = "index";
+}
+
 if (!empty($_GET['id'])) {
     if ($_GET['id'] == 'NU') {
         $where = 'L';
@@ -46,11 +55,11 @@ include 'search-NAM-NU.php';
 <body>
 
     <header>
-        <a href="trangchu.php" class="logo">WELCOME</a>
+        <a href="<?=$home?>.php" class="logo">WELCOME</a>
         <div class="navigation">
             <ul class="menu">
                 <div class="close-btn"></div>
-                <li class="menu-item"><a href="trangchu.php">ホーム</a></li>
+                <li class="menu-item"><a href="<?=$home?>.php">ホーム</a></li>
                 <li class="menu-item">
                     <a class="sub-btn" href="#">ブランド<i class="fas fa-angle-down"></i></a>
                     <ul class="sub-menu">
@@ -73,7 +82,7 @@ include 'search-NAM-NU.php';
                         </li>
                     </ul>
                 </li>
-                <li class="menu-item"><a href="./cart.php">カート</a></li>
+                <li class="menu-item"><a href="./Cart.php">カート</a></li>
                 <li class="menu-item"><a href="./login.html">Login</a></li>
             </ul>
         </div>
@@ -93,9 +102,9 @@ include 'search-NAM-NU.php';
                 <legend><?= $config_title ?>検索:</legend>
                 <table>
                     <tr>
-                        <td><a href="index.php?id=FULL" style="margin-left: 50px;">TAT CA</a></td>
-                        <td><a href="index.php?id=NAM" style="margin-left: 30px;">NAM</a></td>
-                        <td><a href="index.php?id=NU" style="margin-left: 30px; padding-right: 50px;">NU</a></td>
+                        <td><a href="index.php?id=FULL" style="margin-left: 50px;">全て</a></td>
+                        <td><a href="index.php?id=NAM" style="margin-left: 30px;">男性</a></td>
+                        <td><a href="index.php?id=NU" style="margin-left: 30px; padding-right: 50px;">女性</a></td>
                         <th>価格帯</th>
                         <td>
                             <table class="blank">
