@@ -1,9 +1,9 @@
 <?php
 // test bản chính GIT
 $servername = "localhost";
-$username = "sk2aShop";
+$username = "Shop";
 $password = "ecc";
-$dbname = "eccShop";
+$dbname = "Shop";
 $DB_CHARSET = "utf8mb4";
 
 // $servername = "localhost";

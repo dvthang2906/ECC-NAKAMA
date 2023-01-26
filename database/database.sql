@@ -5,10 +5,10 @@ Create USER nakama IDENTIFIED WITH MYSQL_NATIVE_PASSWORD BY 'ecc';
 GRANT ALL ON thongtin.* TO nakama;
 use thongtin;
 */
-CREATE database eccShop;
-Create USER sk2aShop IDENTIFIED WITH MYSQL_NATIVE_PASSWORD BY 'ecc';
-GRANT ALL ON eccShop.* TO sk2aShop;
-use eccShop;
+CREATE database Shop;
+Create USER Shop IDENTIFIED WITH MYSQL_NATIVE_PASSWORD BY 'ecc';
+GRANT ALL ON Shop.* TO Shop;
+use Shop;
 
 -- ロギング情報
     DROP TABLE IF EXISTS login_infomation;
