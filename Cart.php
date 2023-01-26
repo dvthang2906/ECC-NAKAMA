@@ -163,7 +163,7 @@ if (!empty($_SESSION["cart"])) {
         } else { ?>
            
             <header>
-        <a href="trangchu.php" class="logo">WELCOME</a>
+        <p class="logo">WELCOME</p>
         <div class="navigation">
             <ul class="menu">
                 <div class="close-btn"></div>
