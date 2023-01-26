@@ -194,7 +194,7 @@ if (!empty($_SESSION["cart"])) {
                         </li>
                     </ul>
                 </li>
-                <li class="menu-item"><a href="./cart.php">カート</a></li>
+                <li class="menu-item"><a href="./Cart.php">カート</a></li>
                 <?php if (isset($login_name)) { ?>
                     <li class="menu-item"><a href="./account.php?<?=$login_name?>">Account:&nbsp;<span><?=$login_name?></span></a></li>
                 <?php } else { ?>
