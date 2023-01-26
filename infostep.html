@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/info.css">
+    <!-- <link rel="stylesheet" href="./css/index.css"> -->
+    
+    
+    <title>Infomation</title>
+</head>
+<body>
+    <header>
+       
+    <div class="container">
+         <form id="form1" action="infostep.php" method="post" enctype="multipart/form-data">
+            <div id="options1"> 
+                <h3>個人情報</h3>
+                <h6>******個人情報を入力してください******</h6>
+                <div class="seibetsu">
+                    <p>性別</p>
+                    <input type="radio" name="btn-seibetsu" id="otoko" value="1">男
+                    <input type="radio" name="btn-seibetsu" id="onna" value="2">女<br>
+                </div>
+                <div class="taichuu">
+                    <p>体重</p> <input type="text" name="taijuu" placeholder="...." required>kg</div>
+                <div class="shinchou">
+                    <p>身長</p><input type="text" name="shinchou" placeholder="...." required>cm</div>
+                <button type="button" id="Next1">Next</button>
+            </div>
+                
+            <div id="options2">
+                <div id="seiza">
+
+                    
+                <input type="radio" name="koudoutai" value="1" style="display: none;" id="白羊宮">
+                <label for="白羊宮">
+                    <img src="./image/bachduong.jpg" width="40px" height="40px">
+                    <p>白羊宮<br>3/21-4/20</p>
+                </label>
+
+
+                <input type="radio" name="koudoutai" value="2" style="display: none;" id="金牛宮">
+                <label for="金牛宮"> 
+                    <img src="./image/kimnguu.jpg" width="40px" height="40px">
+                    <p>金牛宮<br>4/21-5/20</p> 
+                </label>
+
+
+                <input type="radio" name="koudoutai" value="3" style="display: none;" id="双児宮">
+                <label for="双児宮">
+                    <img src="./image/songtu.jpg" width="40px" height="40px">
+                    <p>双児宮<br>5/21-6/21</p>
+                </label>
+
+                <input type="radio" name="koudoutai" value="4" style="display: none;" id="巨蟹宮">
+                <label for="巨蟹宮">
+                    <img src="./image/cugiai.jpg" width="40px" height="40px">
+                    <p>巨蟹宮<br>6/22-7/22</p> 
+                </label>
+
+                <input type="radio" name="koudoutai" value="5" style="display: none;" id="獅子宮">
+                <label for="獅子宮">
+                    <img src="./image/sutu.jpg" width="40px" height="40px">
+                    <p>獅子宮<br>7/23-8/22</p>
+                </label>
+
+                <input type="radio" name="koudoutai" value="6" style="display: none;" id="処女宮">
+                <label for="処女宮">
+                    <img src="./image/xunu.jpg" width="40px" height="40px">
+                    <p>処女宮<br>8/23-9/22</p>
+                </label>
+            
+
+                <input type="radio" name="koudoutai" value="7" style="display: none;" id="天秤宮">
+                <label for="天秤宮">
+                    <img src="./image/thienbinh.jpg" width="40px" height="40px"> 
+                    <p>天秤宮<br>9/23-10/23</p> 
+                </label>
+
+                <input type="radio" name="koudoutai" value="8" style="display: none;" id="天蠍宮">
+                <label for="天蠍宮">
+                    <img src="./image/bocap.jpg" width="40px" height="40px">
+                    <p>天蠍宮<br>10/24-11/22</p> 
+                </label>
+
+                <input type="radio" name="koudoutai" value="9" style="display: none;" id="人馬宮">
+                <label for="人馬宮">
+                    <img src="./image/nhanma.jpg" width="40px" height="40px">
+                    <p>人馬宮<br>11/23-12/21</p>
+                 </label>
+
+                <input type="radio" name="koudoutai" value="10" style="display: none;" id="磨羯宮">
+                <label for="磨羯宮">
+                    <img src="./image/maket.jpg" width="40px" height="40px">
+                    <p>磨羯宮<br>12/22-1/19</p> 
+                </label>
+
+                <input type="radio" name="koudoutai" value="11" style="display: none;" id="宝瓶宮">
+                <label for="宝瓶宮">
+                    <img src="./image/baobinh.jpg" width="40px" height="40px">
+                    <p>宝瓶宮<br>1/20-2/18</p>
+                </label>
+
+                <input type="radio" name="koudoutai" value="12" style="display: none;" id="双魚宮">
+                <label for="双魚宮">
+                    <img src="./image/songngu.jpg" width="40px" height="40px">
+                    <p>双魚宮<br>2/19-3/20</p>
+                </label>
+            </div>
+            </table>
+                <div class="btn">
+                    <button type="button" id="Back1">Back</button>
+                    <button type="button" id="Next2">Next</button>
+                </div>
+            </div>
+        
+            
+            
+            <div id="options3">  
+                <div  id="row">
+                    <input type="radio" name="kisetsu" value="1" id="spring" style="display: none;" class="spring">
+                    <label for="spring">
+                        <img src="./image/spring.jpg" alt="" width="110" height="110">
+                    </label>
+
+                    <input type="radio" name="kisetsu" value="2" style="display: none;" id="summer" class="summer">
+                    <label for="summer">
+                        <img onclick="" src="./image/summer.jpg" alt="" width="110" height="110">
+                    </label>
+
+                    <input type="radio" name="kisetsu" value="3" style="display: none;" id="auturn" class="auturn">
+                    <label for="auturn">
+                        <img src="./image/auturn.jpg" alt="" width="110" height="110">
+                    </label>
+
+                    <input type="radio" name="kisetsu" value="4" style="display: none;" id="winter" class="winter">
+                    <label for="winter">
+                        <img src="./image/winter.jpg" alt="" width="110" height="110">
+                    </label>
+
+                </div>
+                <div class="btn">
+                    <button type="button" id="Back2">Back</button>
+                    <button type="button" id="Next3">Next</button>
+                </div>
+            </div>
+            
+            <div id="options4">
+                <div class="date">
+                <p>日付</p><input type="text" name="datetime" placeholder="0101" required>
+                    </div>
+                <div class="btn">
+                    <button type="button" id="Back3">Back</button>
+                    <button name="btn-nakama" type="submit" id="Submit" value="送信">Submit</button>
+                </div>
+            </div>
+        </form>
+        <div class="step-row">
+            <div id="progress"></div>
+            <div class="step-col"><small>Step 1</small></div>
+            <div class="step-col"><small>Step 2</small></div>
+            <div class="step-col"><small>Step 3</small></div>
+            <div class="step-col"><small>Step 4</small></div>
+        </div>
+                
+        
+    </div>
+    <script>
+        var Option1 = document.getElementById("options1");
+        var Option2 = document.getElementById("options2");
+        var Option3 = document.getElementById("options3");
+        var Option4 = document.getElementById("options4");
+        var Next1 = document.getElementById("Next1");
+        var Next2 = document.getElementById("Next2");
+        var Back1 = document.getElementById("Back1");
+        var Back2 = document.getElementById("Back2");
+        var Next3 = document.getElementById("Next3");
+        var Back3 = document.getElementById("Back3");
+        var progress = document.getElementById("progress");
+
+
+        Next1.onclick = function(){
+            Option1.style.left ="-450px";
+            Option2.style.left = "140px";
+            progress.style.width ="160px";
+        }
+        Back1.onclick = function(){
+            Option1.style.left ="160px";
+            Option2.style.left = "600px";
+            progress.style.width ="80px";
+        }
+        Next2.onclick = function(){
+            Option2.style.left ="-450px";
+            Option3.style.left ="10px"
+            progress.style.width ="240px";
+
+        }
+        Back2.onclick = function(){
+            Option2.style.left ="140px";
+            Option3.style.left ="500px"
+            progress.style.width ="160px";
+        }
+        Next3.onclick = function(){
+            Option3.style.left="-500px";
+            Option4.style.left="140px";
+            progress.style.width ="360px";
+        }
+        Back3.onclick = function(){
+            Option3.style.left ="10px";
+            Option4.style.left ="500px";
+            progress.style.width ="240px";
+        }
+        
+        const image = document.querySelectorAll('img');
+        image.forEach(element => {
+            element.addEventListener('click',()=>{
+                image.forEach(element => {
+                    element.style.border="none";
+                });
+                element.style.border="2px solid red";
+                
+
+            })
+                 
+        });        
+    </script>
+</body>
+</html>
