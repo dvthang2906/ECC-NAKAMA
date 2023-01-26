@@ -24,12 +24,12 @@ if(!empty($login_name)){
         <div class="navigation">
             <ul class="menu">
                 <div class="close-btn"></div>
-                <li class="menu-item"><a href="<?=$home?>.php">ホーム</a></li>
+                <li class="menu-item"><a href="<?=$home?>.php" style="font-size: 25px;">ホーム</a></li>
                 <?php if (!empty($login_name)) : ?>
                     <li class="menu-item"><a href="account.php?<?= $login_name ?>">Account:&nbsp;<?= $login_name ?></a></li>
                     <li class="menu-item"><a href="logout.php">ログアウト</a></li>
                 <?php else : ?>
-                    <!-- <li class="menu-item"><a href="account.php">Account</a></li> -->
+                    <li class="menu-item"><a style="font-size: 25px;" href="login.html">Login</a></li>
                 <?php endif ?>
 
             </ul>
