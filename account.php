@@ -25,7 +25,7 @@ if(!$conn-> connect_error){
         }
         $thongtin -> close();
     }else{
-        echo"database KO TON TAI";
+        echo"database 存在しません";
     }
 }
 $conn -> close();
@@ -50,7 +50,7 @@ $conn -> close();
         <div class="navigation">
             <ul class="menu">
                 <div class="close-btn"></div>
-                <li class="menu-item"><a href="#">ホーム</a></li>
+                <li class="menu-item"><a href="trangchu.php">ホーム</a></li>
                 <li class="menu-item">
                     <a class="sub-btn" href="#">ブランド<i class="fas fa-angle-down"></i></a>
                     <ul class="sub-menu">
