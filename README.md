@@ -4,7 +4,7 @@
 ・	ホームページの方はチームの人がCSSをやりましたが、私はadminサイトのCSSに全部作っておりました。PHPとHTMLとDBを全て担当しました。 時間がなかったので、javascriptもけやりました。
 
 ★	DBを代入値に関して最初にdatabase.sqlを実行してから、（もう一つだけがあります。）
-★	ログイン画面に最初にadminとしてログインして、http://localhost/php1/ECC-NAKAMA-main/admin/
+★	ログイン画面に最初にadminとしてログインして、( http://localhost/...../ECC-NAKAMA-main/admin/ )
 ★	次の画面に商品管理をクリックし、右側にすべて画像追加ボタンをクリックしてから、画像をDBに代入します。
 ★	次にupdate_product.sqlを 実行します。
 ★	注意：アカウント登録の方がlocalhostがsendmailサーバーに接続できませんので、databaseに追加しておきました。(自分作成のフリーサーバーで登録しておきました。)
