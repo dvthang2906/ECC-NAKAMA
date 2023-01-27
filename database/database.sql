@@ -110,43 +110,7 @@ CREATE TABLE IF NOT EXISTS `image_library` (
         PRIMARY KEY (id)
     )ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 
--- INSERT INTO quan_ao();
-
--- ALTER TABLE quan_ao ADD COLUMN quantity INT;
--- update quan_ao SET content
--- quan ao NAM id 59~91
-    UPDATE `quan_ao` SET `content` = '無地のTシャツとロングジーンズを組み合わせたエレガントかつダイナミックなコーディネートは、端正なミニマリスト感を演出しながらも躍動感と着心地の良さを兼ね備えています' WHERE id = 1; 
-    UPDATE `quan_ao` SET `content` = '滑らかな衿のTシャツとロングパンツを組み合わせたエレガントかつダイナミックなコーディネートは、大人のミニマルな雰囲気を醸し出しつつも、躍動感と着心地の良さを兼ね備えています。' WHERE id = 2;
-    UPDATE `quan_ao` SET `content` = '無地のTシャツと破れたジーンズを組み合わせたエレガントでダイナミックなコーディネートは、大人のミニマルな雰囲気を醸し出しつつも、躍動感と着心地の良さを兼ね備えています。' WHERE id = 3;
-    UPDATE `quan_ao` SET `content` = 'Tシャツとトラウザーズを合わせたエレガントかつダイナミックなセットは細身の方にも似合う横ストライプがバランスをとってくれます。' WHERE id = 4;
-    UPDATE `quan_ao` SET `content` = 'オーバーサイズのTシャツとハーフパンツの組み合わせで、夏にふさわしい若々しくダイナミックな雰囲気を演出。 アクセントが際立つクロスボディバッグと合わせて。' WHERE id = 5;
-    UPDATE `quan_ao` SET `content` = '夏に適した涼しげなシワ感のある生地を使用した小柄シャツに、ロングジーンズを合わせたベーシックな着こなしとアクティブな着心地。' WHERE id = 6;
-    UPDATE `quan_ao` SET `content` = '無地のTシャツと破れたジーンズを組み合わせたエレガントでダイナミックなコーディネートは、大人のミニマルな雰囲気を醸し出しつつも、躍動感と着心地の良さを兼ね備えています。' WHERE id = 7;
-    UPDATE `quan_ao` SET `content` = 'オーバーサイズのTシャツとショートパンツを合わせて、夏にぴったりの若々しくダイナミックな着こなしに。 細かな縦縞模様で太った体型の方にバランス感があり。' WHERE id = 8;
-    UPDATE `quan_ao` SET `content` = 'オーバーサイズのTシャツとショートパンツを合わせて、夏にぴったりの若々しくダイナミックな着こなしに。 太めの体型の方にも似合うバランス感のある大きめの文字パターン' WHERE id = 9;
-    UPDATE `quan_ao` SET `content` = 'チェックのシャツとV字ネック ニットトップスの外側にワイドレッグジーンズを組み合わせた. レイヤースタイルで細身の方にもバランス感を。 重ね着が多いのに幅が広いので着心地がいいです。' WHERE id = 10;
-    UPDATE `quan_ao` SET `content` = 'Tシャツとジーンズジャケットは、個性を表現するのに最適な組み合わせです. あらゆる体型に合わせたセッティング。 アクセサリーは、セットのアクセントにできるメガネとネックレス。' WHERE id = 11;
-    UPDATE `quan_ao` SET `content` = 'ポロシャツとバギーパンツを合わせて、寒い季節にぴったりの若々しくアクティブに。' WHERE id = 12;
-    UPDATE `quan_ao` SET `content` = 'ニューエラ定番シルエットのトレーナーに、左胸MLBチームロゴ + 右胸ボックスロゴを配置したオンスポッツ別注商品です。左袖口にニューエラフラッグロゴの刺繍をセットしています。裏毛のスウェットを採用しました。軽いですが、冬には暖かいです。' WHERE id = 13;
-    UPDATE `quan_ao` SET `content` = '軽く羽織れてしっかり暖かいダブルフェイス生地を採用したチェスターコート。ほどよくゆとりのあるサイジングで、肉厚なニットやジャケットの上からでもサラッと羽織れます。スカーフとビーニーを合わせてアクセントと暖かさをプラスします。' WHERE id = 14;
-    UPDATE `quan_ao` SET `content` = 'スウェットシャツとワイドレッグのフェルトバギーパンツを組み合わせて快適な着心地を演出。 中には天候に合わせてTシャツやポロシャツなどを合わせても。 冬に厚着をしたくない方にぴったりの組み合わせです。' WHERE id = 15;
-    UPDATE `quan_ao` SET `content` = '軽く羽織れてしっかり暖かいダブルフェイス生地を採用したチェスターコート。ほどよくゆとりのあるサイジングで、肉厚なニットやジャケットの上からでもサラッと羽織れます。丁寧でありながら温かみのあるセットです。' WHERE id = 16;
-    UPDATE `quan_ao` SET `content` = 'バギーパンツと外の暑さをしのぐポロシャツ、ベースボールシャツの組み合わせで個性を表現できます。 これは、ダイナミックさと個性の両方の組み合わせです。' WHERE id = 17;
-    UPDATE `quan_ao` SET `content` = '軽く羽織れてしっかり暖かいダブルフェイス生地を採用したチェスターコート。ほどよくゆとりのあるサイジングで、肉厚なニットやジャケットの上からでもサラッと羽織れます。丁寧でありながら温かみのあるセットです。' WHERE id = 18;
-    UPDATE `quan_ao` SET `content` = 'オーバーサイズのポロシャツとジーンズを合わせて、冬にぴったりの若々しくダイナミックな着こなしに。 印象的なクロスボディバッグと合わせて。' WHERE id = 19;
-    UPDATE `quan_ao` SET `content` = 'レイヤースタイルはレイヤーの組み合わせです。 タートルネックのセーターにジーンズのジャケット、毛皮のコートを合わせると、暖かさと若々しさが感じられます。' WHERE id = 20;
-    UPDATE `quan_ao` SET `content` = 'ファーコートながら体にフィットするサイズ感でバランス感と暖かさを演出。 ジーンズと合わせて、シンプルだけど上品に。' WHERE id = 21;
-    UPDATE `quan_ao` SET `content` = 'サーマル タートルネック T シャツとオーバーサイズのダーク レザー ジャケットの組み合わせは、冬にぴったりのチョイスです。 すべての体型の基本的な感覚を作成します。' WHERE id = 22;
-    UPDATE `quan_ao` SET `content` = '毛皮の襟付きコートは、冬に最適です。 インナーにシャツやポロシャツ、バギーパンツと合わせやすく、個性を演出できます。' WHERE id = 23;
-    UPDATE `quan_ao` SET `content` = 'サーマルポロシャツとバギーパンツを組み合わせたスーツ。 個性を際立たせる半袖ハットにライフジャケットがポイント。' WHERE id = 24;
-    UPDATE `quan_ao` SET `content` = 'Tシャツとシャツは、丁寧さと若々しさを同時に感じる完璧な組み合わせです。 ジーンズやショートパンツと合わせることができます。' WHERE id = 25;
-
-    -- ALTER TABLE quan_ao ADD COLUMN quanao_price BIGINT;
-
-    --
-
-
--- -- お客さん提供情報
+-- お客さん提供情報
     DROP TABLE IF EXISTS kensa;
     CREATE TABLE IF NOT EXISTS kensa(
         id SERIAL,
@@ -157,11 +121,6 @@ CREATE TABLE IF NOT EXISTS `image_library` (
         k_koudoutai TEXT,
         k_time DATETIME
     );
-
-    -- insert into kensa( k_seibetsu, k_birthday,  k_shinchou, k_taijuu, k_time) 
-    --     values ('A', '2021/11/04', 170, 60, NOW());
-
-
 
 -- bmi_season
     DROP TABLE IF EXISTS bmi_season;
@@ -606,10 +565,6 @@ CREATE TABLE IF NOT EXISTS orderr (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 
-INSERT INTO `orderr` (`name`, `phone`, `address`, `note`, `total`, `created_time`, `last_updated`) VALUES
-( 'HAU', '09041777923', 'Ha Noi', 'Ghi chu', 10000, 1587872426, 1587872426);
-
-
 -- thông tin cho tiết từng sản phẩm khách đã mua trong 1 đơn hàng
 -- Table structure for table `order_detail`
 DROP TABLE IF EXISTS `order_detail`;
@@ -628,25 +583,7 @@ CREATE TABLE IF NOT EXISTS `order_detail` (
 
 -- --------------------------------------------------------
 
-
-
---
--- Constraints for dumped tables
---
-
---
 -- Constraints for table `image_library`
 --
 ALTER TABLE `image_library`
   ADD CONSTRAINT `image_library_ibfk_1` FOREIGN KEY (`quan_ao_id`) REFERENCES `quan_ao` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
-
---
--- Constraints for table `order_detail`
--- --
--- ALTER TABLE `order_detail`
---   ADD CONSTRAINT `order_detail_ibfk_1` FOREIGN KEY (`order_id`) REFERENCES `order` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
---   ADD CONSTRAINT `order_detail_ibfk_2` FOREIGN KEY (`id_quanao`) REFERENCES `quan_ao` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
-
-
-
-
