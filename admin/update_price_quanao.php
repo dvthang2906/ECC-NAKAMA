@@ -31,8 +31,6 @@ if (!empty($_SESSION['current_user'])) {
                     //arrayに代入
                     array_push($sql_price_update_array, $sql_price_update);
                 }
-                print_r($sql_price_update_array);
-                // exit;
                 foreach ($sql_price_update_array as $sql_u) {
                     if (!empty($sql_u)) {
                         $conn->query($sql_u);
