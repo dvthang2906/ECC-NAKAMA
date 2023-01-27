@@ -14,7 +14,7 @@ if (!empty($_SESSION['current_user'])) {
             if(!empty($value)){
                 switch ($field) {
                     case 'name':
-                    $where .= (!empty($where))? " AND "."`id_quanao` LIKE '%".$value."%'" : "`id_quanao` LIKE '%".$value."%'";
+                    $where .= (!empty($where))? " AND "."`name` LIKE '%".$value."%'" : "`name` LIKE '%".$value."%'";
                     break;
                     default:
                     $where .= (!empty($where))? " AND "."`".$field."` = ".$value."": "`".$field."` = ".$value."";
